@@ -28,10 +28,10 @@ consentdiv.innerHTML = `
         <h3 class="consent-headlines">Toestemming</h3>
       </div>
       <div class="nav-item details">
-        <h3 class="consent-headlines">Info</h3>
+        <h3 class="consent-headlines">Details</h3>
       </div>
       <div class="nav-item about">
-        <h3 class="consent-headlines">About</h3>
+        <h3 class="consent-headlines">Info</h3>
       </div>
     </div>
     
@@ -55,7 +55,8 @@ consentdiv.innerHTML = `
             </div>
             <div class="cookie-toggle">
               <label class="ConsentSwitch">
-              <input type="checkbox">
+              
+              <input type="checkbox" checked class="inputDisable" disabled>
              
                 <span class="ConsentSlider"></span>
               </label>
